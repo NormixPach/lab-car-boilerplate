@@ -1,1 +1,120 @@
 /* Los estilos de tu proyecto */
+*{
+  box-sizing: border-box;
+
+}
+.col-lg-12{
+  width: 100%;
+  height: 500px;
+  box-sizing: border
+
+}
+.row .col-lg-12{
+  margin: 0;
+  padding-top: 0;
+}
+.taxi{
+  width: 100%;
+  height: 95vh;
+  background-position: bottom;
+  background-size: cover;
+  background-image: url("../assets/images/taxi.jpg");
+}
+ .col-sm-3{
+   background-color: #dfb41d;
+   color: #fff;
+   margin-top: 20vh;
+   border-top: 20px;
+  z-index: 100%;
+  float: right;
+}
+.visible-xs-3{
+  margin-right: 2%;
+}
+.movil .col-sm-12{
+  background-color: #dfb41d;
+  width: 100%;
+  height: 75vh;
+}
+.celular {
+  background-color: transparent;
+  width: 80%;
+  height: 60vh;
+  margin-top: 4%;
+  border: white 2px solid;;
+  z-index: 100%;
+  float: left;
+}
+.col-lg-10{
+  background-image: url(../assets/images/iPhone6Plus.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 50%;
+  height: 60vh;
+  float: left;
+  z-index: 100%;
+}
+.col-lg-6 {
+  margin-left: 90%;
+  color: white;
+}
+
+
+.conductor .col-lg-12{
+  background-image: url(../assets/images/conduce.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+ .mapa .col-md-12{
+  background-color:#dfb41d;
+  width: 100%;
+  height: 75vh;
+}
+.mapy{
+  margin-right: 5%;
+  margin-top: 5.2%;
+  border: white 7px double;
+  float: right;
+}
+iframe{
+  margin-top: 1%;
+}
+.map{
+  margin-left: 10%;
+  float: left;
+}
+.pie-pagina .col-md-12{
+  background-color: #241c25;
+  width: 100%;
+  height: 90vh;
+}
+.logo img{
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.lista{
+  margin-top: 1%;
+  margin-left: 25%;
+  background-color: #241c25;
+}
+.list-group-item{
+  color: white;
+  border: none;
+  background-color: transparent;
+}
+.lista2{
+  margin-top: 1%;
+  margin-left: 3%;
+}
+.logo-apps{
+  margin-left: 3%;
+  margin-top: 16%;
+}
+.copy{
+  color: white;
+  margin-left: 5%;
+}
